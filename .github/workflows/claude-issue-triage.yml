@@ -29,7 +29,7 @@ jobs:
 
             1. Lee el título y la descripción del issue.
             2. Revisa las labels existentes del repositorio (`gh label list`) y asigna al issue las que correspondan según su naturaleza (por ejemplo: bug, enhancement, documentation, question, duplicate, wontfix, o labels más específicas del dominio del juego como rendering, input/controls, scoring, performance). Si ninguna label existente encaja bien, crea una nueva con `gh label create` usando un nombre y color coherentes con las labels ya existentes, y luego asígnala.
-            3. Publica un comentario en el issue con un diagnóstico general del problema: causa probable (revisando `game.js`, `index.html` o `style.css` según aplique), funciones o secciones del código involucradas, y una sugerencia inicial de enfoque para abordar la solución.
+            3. Publica un comentario en el issue con un diagnóstico general del problema: causa probable (revisando `game.js`, `index.html` o `style.css` según aplique), funciones o secciones del código involucradas, y una sugerencia inicial de enfoque para abordar la solución. El comentario debe estar redactado en formato Markdown válido y bien interpretado por GitHub (encabezados, listas, bloques de código con triple backtick y el lenguaje correspondiente, negritas donde aporte claridad, etc.).
 
             No implementes ningún cambio de código ni abras un pull request: el objetivo de este análisis es únicamente diagnosticar y clasificar el issue para que el equipo decida después cómo implementar la solución.
 
